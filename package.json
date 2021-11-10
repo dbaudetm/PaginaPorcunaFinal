@@ -1,0 +1,48 @@
+{
+  "name": "WEBDEVIAJES",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist .parcel-cache .cache-loader",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "David Baudet Moreno",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "parcel": "^2.0.0",
+    "postcss": "^8.3.11"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "again": "0.0.1",
+    "better-sqlite3": "^7.4.4",
+    "browserify-fs": "^1.0.0",
+    "common-js": "^0.3.8",
+    "csv-parse": "^4.16.3",
+    "csv-parser": "^3.0.0",
+    "database-js": "^3.0.11",
+    "easy-json-database": "^1.5.0",
+    "express": "^4.17.1",
+    "firebase": "^4.12.0",
+    "forecastio": "^2.0.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^6.1.0",
+    "lowdb": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysqldump": "^3.2.0",
+    "node-json-db": "^1.4.1",
+    "nope.db": "0.0.9",
+    "openweather-apis": "^4.4.2",
+    "simple-json-db": "^1.2.3",
+    "sqlite-sync": "^0.3.9",
+    "sqlite3": "^5.0.2",
+    "ts-json-db": "^2.0.5",
+    "weather": "^1.0.4",
+    "weather-js": "^2.0.0"
+  }
+}
